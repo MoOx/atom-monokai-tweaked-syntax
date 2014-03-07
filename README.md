@@ -8,7 +8,7 @@ Tweaked part are visible & listed below with examples
 
 ## Global preview (CSS) with git gutter
 
-![Monokai Tweaked Syntax theme preview](https://github.com/MoOx/atom-monokai-tweaked-syntax/raw/master/screenshots/css.png)
+![Monokai Tweaked Syntax theme preview](https://github.com/MoOx/atom-monokai-tweaked-syntax/raw/master/screenshots/preview.png)
 
 I tweaked the monokai background & add a better line height. With a bearly visible text-shadow.
 
