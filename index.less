@@ -1,9 +1,9 @@
-@import "stylesheets/colors";
-@import "stylesheets/whitespace";
-@import "stylesheets/selection";
+@import "styles/colors";
+@import "styles/whitespace";
+@import "styles/selection";
 
-.editor,
-.editor .gutter {
+.atom-text-editor,
+.atom-text-editor .gutter {
   //-webkit-font-smoothing: antialiased;
 
   background-color: @var_Color_grey__background;
@@ -12,11 +12,11 @@
   line-height: 1.4;
 }
 
-.editor .wrap-guide {
+.atom-text-editor .wrap-guide {
   background: @var_Color_grey__dark;
 }
 
-.editor.mini { text-shadow: none }
+.atom-text-editor.mini { text-shadow: none }
 
   .comment { color: @var_Color_grey__comment }
 
@@ -88,8 +88,8 @@
     background-color: @var_Color_purple;
   }
 
-@import "stylesheets/git_gutter";
+@import "styles/git_gutter";
 
-//@import "stylesheets/languages/*";
+//@import "styles/languages/*";
 // @todo import & test all languages specific highlighting
-@import "stylesheets/languages/markdown";
+@import "styles/languages/markdown";
